@@ -1,0 +1,448 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body header  ,body nav,body main,body footer{
+    width: 1200px;
+    height: auto;
+    min-height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body header  {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+    font-size: 45px;
+}
+body main {
+    padding: 50px;
+    background-color: #000000;
+}
+body main section {
+    width: 900px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+main section h2 {
+    color: #000000;
+    font-style: italic;
+    font-size: 32px;
+}
+main section p {
+    color: #0D0D0D;
+}
+body footer {
+    background-color: #000000;
+    padding: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+}
+body nav {
+    padding: 50px;
+    background-color: #514F52;
+}
+nav ul li {
+    list-style-type: none;
+    color: #FFFFFF;
+    width: 88px;
+    height: 16px;
+    display: inline-block;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 40px;
+    border: 3px solid #FFFFFF;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #49484A;
+}
+ul li a:hover {
+    color: #151515;
+}
+	table{
+		width: 100%;
+		border-style:solid;
+		border-width: 1px;
+		border-color:darkorange;
+		border-collapse:collapse
+	}	
+	table tr{
+    color: azure;
+    background-color: #000000
+	}
+	table th,table td{
+    border: 3px solid #FFFFFF;
+    padding: 5px;
+    text-align: center
+	}
+	#table_1{
+    background-color: #5F5F5F;
+    color: #FF0000;
+    font-family: belgrano;
+    border-collapse: separate;
+    padding: 30px
+	}
+	#table_1 td,#table_1{
+    border-color: #FFFFFF
+	}
+	#table_1 td,{
+		background-color: darksalmon
+	}
+	#table_1 th{
+    background-color: #FF0000;
+	}
+	#table_1 tfoot td{
+    background-color: #FF0000
+	}
+#table_2 {
+    margin-top: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#table_2 tfoot td {
+    font-weight: 400;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+}
+#table_2 tbody tr:hover {
+    background-color: #C8A6F1;
+    color: #382476;
+    font-size: 16px;
+}
+#table_1 tbody td:hover {
+    background-color: #FFC2AB;
+}
+#table_3 {
+}
+#table_3 tfoot td {
+    background-color: #606060;
+}
+#table_3 thead th {
+    background-color: #454647;
+}
+#table_3 tbody tr:nth-child(odd)  {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+#table_2 tbody td {
+    padding: 10px;
+    text-align: left;
+}
+#table_2 th {
+    background-color: #E8B246;
+    text-align: left;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#table_3 tbody tr:nth-child(even)  {
+    background-color: #393A3A;
+    color: #FFFFFF;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/corben:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="../../../../AppData/Local/Temp/Adobe/index.html">Inicio </a></li>
+    <li><a href="../../../../AppData/Local/Temp/Adobe/Dreamweaver 2021/practicas_uno.html">Texto</a></li>
+    <li><a href="../../../../AppData/Local/Temp/Adobe/Dreamweaver 2021/Tablas.html">Tablas </a></li>
+    <li><a href="Imagenes.html">Imagenes</a></li>
+	 <li><a href="../../../../AppData/Local/Temp/Adobe/Dreamweaver 2021/audios.html">Audio</a></li>	
+	<li><a href="../../../../AppData/Local/Temp/Adobe/Dreamweaver 2021/video.html">Videos</a></li>	
+	<li><a href="../../../../AppData/Local/Temp/Adobe/Dreamweaver 2021/animacion.html">Animacion</a><a>&nbsp;</a></li> 
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla Simple</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure iste asperiores, pariatur doloremque harum culpa, ipsum similique error ea veniam temporibus, ullam necessitatibus quis rerum quo laboriosam voluptatibus. Magnam nam quos eligendi quam architecto, laudantium facere. Obcaecati numquam voluptates accusantium nisi alias explicabo commodi nemo soluta vero modi, est atque mollitia tempora necessitatibus esse excepturi magni laboriosam molestias blanditiis ipsum impedit cupiditate. Natus quos, quas placeat dolorum! Debitis rerum facilis accusamus sunt ipsam reprehenderit cum quod laboriosam provident ex blanditiis quas, expedita a voluptatem accusantium architecto. Quo minima omnis, quisquam dolore, molestiae quis nulla ullam labore, nostrum officiis saepe deserunt.</p>
+	  
+	  <table border="1">
+	  <thead>
+		 <tr>
+			 <th>Nombre</th> 
+			 <th>Apellido Paterno</th>	 
+			 <th>Apellido Materno</th>	 
+			 <th>Edad</th>  
+		     <th>Coperacion</th>
+		  </tr> 
+     </thead>	
+	<tbody>
+		<tr>
+		<td>Carlos&nbsp;</td>	  
+		<td>Guerrero&nbsp;</td>	  
+		<td>Meneses&nbsp;</td>	  
+		<td>20</td>	  
+		<td>100</td>
+			</tr>
+		<!--(tr>(td*5))*4 -->	
+			<tr>
+				<td>Raquel&nbsp;</td>
+				<td>Castro&nbsp;</td>
+				<td>Vergara&nbsp;</td>
+				<td>18</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>Oscar&nbsp;</td>
+				<td>Lopez&nbsp;</td>
+				<td>Perez</td>
+				<td>19</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>Lulu&nbsp;</td>
+				<td>Vargas&nbsp;</td>
+				<td>Gonzales&nbsp;</td>
+				<td>19</td>
+				<td>150</td>
+			</tr>
+			<tr>
+				<td>Luis</td>
+				<td>Carmona&nbsp;</td>
+				<td>Vasquez&nbsp;</td>
+				<td>20</td>
+				<td>10</td>
+			</tr>
+		  </tbody>
+	<tfoot>
+		<tr>
+			<td></td>	
+			<td></td>	
+			<td></td>
+			<td>Total</td>	
+			<td>375</td>	
+		</tr>  
+		  </tfoot>
+	  
+	  
+	  
+	  </table>
+</section>
+  <section>
+    <h2>Tabla modificada a partir de un identificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptate ex ab, quas voluptatem aliquam tempora eligendi assumenda atque dolor quia cupiditate iusto aut soluta rerum delectus ducimus at inventore totam? Non, magnam. Assumenda nisi, dolore id rerum numquam quidem nesciunt vel. Libero ipsam ducimus dolorem facilis omnis cumque ratione delectus rem fuga quas perferendis, autem, aliquid numquam dignissimos quidem quod fugiat blanditiis, consectetur atque quisquam corrupti. Deleniti eos nam ab, maxime modi cumque! Nemo magni doloribus eos totam quis officia similique nisi ut unde perferendis, repellat asperiores aliquam laudantium praesentium voluptas, iste dolorum accusantium ad ab non neque. Quisquam?</p>
+    <table id="table_1">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno</th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Coperacion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+           <th>Nombre</th> 
+			 <th>Apellido Paterno</th>	 
+			 <th>Apellido Materno</th>	 
+			 <th>Edad</th>  
+		     <th>Coperacion</th>
+		  </tr> 
+     </thead>	
+	<tbody>
+		<tr>
+		<td>Carlos&nbsp;</td>	  
+		<td>Guerrero&nbsp;</td>	  
+		<td>Meneses&nbsp;</td>	  
+		<td>20</td>	  
+		<td>100</td>
+			</tr>
+		<!--(tr>(td*5))*4 -->	
+			<tr>
+				<td>Raquel&nbsp;</td>
+				<td>Castro&nbsp;</td>
+				<td>Vergara&nbsp;</td>
+				<td>18</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>Oscar&nbsp;</td>
+				<td>Lopez&nbsp;</td>
+				<td>Perez</td>
+				<td>19</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>Lulu&nbsp;</td>
+				<td>Vargas&nbsp;</td>
+				<td>Gonzales&nbsp;</td>
+				<td>19</td>
+				<td>150</td>
+			</tr>
+			<tr>
+				<td>Luis</td>
+				<td>Carmona&nbsp;</td>
+				<td>Vasquez&nbsp;</td>
+				<td>20</td>
+				<td>10</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Total</td>
+          <td>375</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro alias, excepturi distinctio veritatis voluptatum itaque nulla ratione ab mollitia iure totam dicta necessitatibus. Quidem aliquid error vero sequi iure voluptatem, deserunt id commodi, dolorem sapiente modi ratione velit doloremque. Ab et animi, modi nihil ratione aut ad est. Unde eos tempore voluptates, dolor commodi dignissimos nisi quo blanditiis officiis ad quas eius reiciendis fugit sequi perspiciatis assumenda quaerat laboriosam, qui! Consequatur dolorem saepe officia, magnam et dolor maxime beatae aliquid quos at iure vel voluptates explicabo reprehenderit obcaecati doloribus sunt sit quidem provident, recusandae rerum sapiente. Doloremque, nam accusantium optio.</p>
+    <table border="1" id="table_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno</th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Coperacion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Carlos</td>
+          <td>Guerrero&nbsp;</td>
+          <td>Meneses&nbsp;</td>
+          <td>20</td>
+          <td>100</td>
+        </tr>
+        <!--(tr>(td*5))*4 -->
+        <tr>
+          <td>Raquel&nbsp;&nbsp;</td>
+          <td>Castro&nbsp;</td>
+          <td>Vergara&nbsp;</td>
+          <td>18</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Oscar&nbsp;</td>
+          <td>Lopez&nbsp;</td>
+          <td>Perez</td>
+          <td>19</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Lulu</td>
+          <td>Vargas</td>
+          <td>Gonzales</td>
+          <td>19</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>Luis</td>
+          <td>Carmona</td>
+          <td>Vazquez&nbsp;</td>
+          <td>20</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Total</td>
+          <td>375</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error porro adipisci veritatis placeat. Veniam rerum, voluptate reiciendis quaerat maiores sapiente quasi, cum fugit dicta atque ex molestias placeat qui eligendi, neque voluptates! Sapiente error quibusdam deserunt ea voluptatum vitae nemo eum quisquam eligendi quia perferendis aperiam dolorum, sequi nulla facere numquam autem saepe provident, rem veritatis laboriosam alias, modi, ducimus sint. Ea eligendi est, repudiandae excepturi ullam accusantium earum nam deleniti, dolorum eaque unde qui, reprehenderit assumenda quisquam rerum, neque harum corporis incidunt veritatis natus adipisci laboriosam quo et maiores. Repudiandae alias sed sequi, error, nam suscipit! Ad, optio aut!</p>
+    <ol><table cellpadding="5" cellspacing="5" id="table_3" >
+		<thead>
+		<tr>
+          <th scope="col">Nombre </th>
+          <th scope="col">Apellidos</th>
+          <th scope="col">Correo</th>
+          <th scope="col">Telefonos</th>
+          <th scope="col">Coperacion</th>
+        </tr>
+		</thead>
+      <tbody>
+        <tr>
+          <td>Carlos&nbsp;</td>
+          <td>Guerrero Meneses</td>
+          <td>carlos.31@hotmail.com</td>
+          <td>2221521826</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Raquel</td>
+          <td>Castro Vergara&nbsp;</td>
+          <td>raqcstro_ver@gmail.com</td>
+          <td>222567569</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Oscar&nbsp;</td>
+          <td>Lopez Perez&nbsp;</td>
+          <td>oscar_perez@yahoo.com</td>
+          <td>2223856741</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Lulu</td>
+          <td>Vargs Gonzales</td>
+          <td>vargas_gon@hotmail.com</td>
+          <td>2224676837</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Luis&nbsp;</td>
+          <td>Carmona Vazquez</td>
+          <td>vazquecarluis@outlook.com</td>
+          <td>5564577489</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+		<tfoot>
+			<tr>
+		<td>&nbsp;</td>
+		<td></td>
+		<td></td>
+		<td>Total</td>
+		<td>500</td>
+	      </tr>
+		</tfoot>
+    </table></ol>
+  </section>
+</main>
+<footer>
+  <h5>Elaborado por Carlos Dhayan Guerrero Meneses&nbsp; &nbsp;&nbsp;</h5>
+</footer>
+</body>
+</html>
